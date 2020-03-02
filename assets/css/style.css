@@ -1,0 +1,207 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family: Graphik-Medium; 
+    src: url(../font/Graphik-Medium.ttf); 
+   }
+@font-face {
+    font-family: Graphik-Regular; 
+    src: url(../font/Graphik-Regular.woff); 
+}
+@font-face {
+    font-family: Theinhardt-Lt; 
+    src: url(../font/Theinhardt-Lt.woff); 
+}
+@font-face {
+    font-family: Tiempos; 
+    src: url(../font/TiemposHeadline-Semibold.woff); 
+   }
+a{
+    text-decoration: none;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5vh 15vh 10vh 10vh;
+}
+header ul{
+    list-style: none;
+    display: flex;
+}
+header li{
+    padding-right: 5vh;
+}
+header a{
+    color: #2B2C2E;
+}
+nav a{
+    font-family: 'Graphik-Regular';
+    font-size: 2vh;
+}
+.logo{
+    font-family: 'Tiempos'; 
+    font-size: 2vh;
+}
+.getStarted{
+    font-family: 'Graphik-Medium';
+    border: 2px solid #2B2C2E;
+    padding: 1vh 6vh;
+    font-size: 2.5vh;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+ .getStarted:hover{
+     background-color: #2B2C2E;
+     color: #fff;
+ }
+ .hero h1{
+     text-align: center;
+     font-family: 'Graphik-Regular';
+     font-size: 5vh;
+     padding-bottom: 5vh;
+ }
+ .hero>img{
+     width: 100%;
+     padding-bottom: 15vh;
+ }
+ .hero article{
+     display: grid;
+     grid-template-columns: 60% 40%;
+     padding: 10vh 20vh 20vh 20vh;
+     gap: 10vh;
+ }
+ .hero article p{
+    font-family: 'Graphik-Medium';
+    font-size: 2.5vh;
+    line-height: 4vh;
+ }
+ .hero h2{
+     font-size: 9vh;
+     font-family: 'Theinhardt-Lt';
+ }
+ .hero div p{
+    font-size: 3vh;
+    font-family: 'Theinhardt-Lt';
+    color: #9FA2A7;
+}
+.deliverables, .howItWorks{
+    display: grid;
+    grid-template-columns: 45% 55%;
+    padding: 10vh 15vh;
+}
+.deliverables img, .howItWorks img{
+    width: 100%;
+}
+.deliverables article{
+    padding-left: 5vh;
+}
+.deliverables h1{
+    font-size: 8vh;
+    font-family: 'Tiempos';
+    padding-bottom: 10vh;
+}
+.deliverables h2{
+    font-family: 'Graphik-Medium';
+    font-size: 3vh;
+    padding-bottom: 3vh;
+}
+.deliverables p{
+    font-family: 'Theinhardt-Lt';
+    font-size: 2.5vh;
+    line-height: 5vh;
+    padding-bottom: 5vh;
+    color: #9FA2A7;
+}
+.howItWorks{
+    background-color: rgb(241,241,244);
+    margin: 0 15vh;
+}
+.howItWorks img{
+    order: 1;
+}
+.howItWorks h1{
+    font-size: 7vh;
+    font-family: 'Tiempos';
+    padding-bottom: 2vh;
+}
+ol{
+    padding-left: 5vh;
+}
+ol li, .howItWorks p{
+    font-size: 2.5vh;
+    color: #9FA2A7;
+    line-height: 4vh;
+}
+.critique{
+    position: relative;
+}
+.critique h1{
+    font-family: 'Tiempos';
+    text-align: center;
+    font-size: 7vh;
+    padding-top: 15vh;
+    padding: 5vh;
+}
+.critique>p{
+    font-family: 'Theinhardt-Lt';
+    font-size: 3vh;
+    text-align: center;
+    color: #9FA2A7;
+}
+span{
+    display: block;
+}
+.critique article{
+    background: url(../img/28.png) center/contain no-repeat;
+    height: 40vh;
+    padding-top: 20vh;
+    margin-bottom: 30vh;
+}
+.critique div img{
+    width: 100%;
+}
+.critique div{
+    display: grid;
+    grid-template-columns: 40% 60%;
+    padding: 0 10vh 10vh 40vh;
+   position: absolute;
+   bottom: -30vh;
+}
+.critique div p{
+    font-family: 'Graphik-Medium';
+    font-size: 2.5vh;
+    color: #9FA2A7;
+    padding-bottom: 10vh;
+    padding-top: 15vh;
+    line-height: 6vh;
+}
+footer{
+    border-top: 1px solid #9FA2A7;
+    margin: 0 15vh;
+    padding-top: 20vh;
+    padding-bottom: 5vh;
+}
+footer h1{
+    font-size: 8vh;
+    font-family: 'Tiempos';
+    text-align: center;
+}
+footer div{
+   display: flex;
+   justify-content: center;
+   align-items: flex-end;
+}
+footer img{
+    height: 20vh;
+}
+footer p{
+    color: #9FA2A7;
+    font-family: 'Graphik-Medium';
+    font-size: 2vh;
+}
+footer a{
+    color: #3D3E41;
+}
